@@ -1,7 +1,24 @@
 aid: manara
 name: Manara
-description: Manara is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Manara is an upskilling and professional development platform focused on the Middle East
+  and North Africa (MENA) region, specializing in training for emerging technologies including AI and
+  cloud computing. It runs enterprise workforce-development programs, national government training
+  initiatives, and individual learning and certification courses, connecting a community of MENA
+  software engineers and technologists with global career opportunities. The company reports 300,000+
+  learners trained, 2,500+ certifications awarded, operations across 40+ countries, and 500+ job
+  placements. Manara publishes no public developer API surface as of this enrichment pass.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://manara.tech/hubfs/favicon.ico
 url: https://raw.githubusercontent.com/api-evangelist/manara/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Education
+- Training
+- Upskilling
+- Talent
+- Workforce Development
+- MENA
+- Cloud
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +46,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/manara-domain-security.yml
 - type: Website
-  url: http://manara.tech
+  url: https://manara.tech
+- type: Blog
+  url: https://medium.com/@manara.tech
+- type: SignUp
+  url: https://app.manara.tech/auth/signup
+- type: Support
+  url: https://manara.tech/contact-us
+- type: TermsOfService
+  url: https://manara.tech/terms
+- type: PrivacyPolicy
+  url: https://manara.tech/privacy
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
