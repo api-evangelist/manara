@@ -7,6 +7,17 @@ description: Manara is an upskilling and professional development platform focus
   software engineers and technologists with global career opportunities. The company reports 300,000+
   learners trained, 2,500+ certifications awarded, operations across 40+ countries, and 500+ job
   placements. Manara publishes no public developer API surface as of this enrichment pass.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
